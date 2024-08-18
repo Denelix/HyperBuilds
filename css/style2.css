@@ -44,10 +44,12 @@ video {
     margin: auto;
 }
 
+/*shrink anything with .image*/
 .image {
 	width: 20%;
 }
 
+/*gives a background to make this stand out from the text*/
 .stats {
 	flex-grow: .2;
 	background-color: #ffffff;
@@ -81,6 +83,7 @@ video {
 	text-font: 10%;
 }
 
+/*This is for the explainations on what the Pokemon do*/
 .text p {
 	margin-top: 0;
     border: 2px solid black;
@@ -112,6 +115,9 @@ video {
 	font-size: 18px;
 	margin-bottom: 10px;
 }
+
+
+/*Movelists should work for everything*/
 .movelist {
   margin-top: -65px;
 }
@@ -143,12 +149,15 @@ video {
 .c
 {
     font-size: 36px;
+    font-size: 36px;
     padding: 10px;
     display: flex;
     justify-content: center;
     margin-top: 5px;
     color: orange;
 }
+
+/*For stats might update later*/
 .stats h2
 {
   font-size: 24px;
